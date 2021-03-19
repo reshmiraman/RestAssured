@@ -31,7 +31,7 @@ public class CheckResponseTest {
     }
 
     @Test
-    public void requestUsZipCode90210_logRequestAndResponseDetails() {
+    public void logRequestAndResponseDetails() {
 
         given().
             log().all().
