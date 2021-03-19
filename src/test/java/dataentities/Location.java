@@ -15,7 +15,7 @@ public class Location {
 
     public Location() {
         this.postCode = "1050";
-        this.country = "Latvia";
+        this.country = "US";
         this.countryAbbreviation = "LV";
 
         Place place = new Place();
