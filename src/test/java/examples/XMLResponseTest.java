@@ -25,25 +25,25 @@ public class XMLResponseTest {
     }
 
     @Test
-    public void requestDeZipCode24848_checkThirdPlaceNameInResponseBody_expectKropp() {
+    public void requestDeZipCode24848_checkThirdPlaceNameInResponseBody_expectStudioCity() {
 
         given().
         when().
             get("http://localhost:9876/de/24848").
         then().
             assertThat().
-            body("response.places.place[2].placeName", equalTo("Kropp"));
+            body("response.places.place[2].placeName", equalTo("Studio City"));
     }
 
     @Test
-    public void requestDeZipCode24848_checkLastPlaceNameInResponseBody_expectKleinBennebek() {
+    public void requestDeZipCode24848_checkLastPlaceNameInResponseBody_expectSanDiego() {
 
         given().
         when().
             get("http://localhost:9876/de/24848").
         then().
             assertThat().
-            body("response.places.place[-1].placeName", equalTo("Klein Bennebek"));
+            body("response.places.place[-1].placeName", equalTo("San Diego"));
     }
 
     @Test
@@ -65,6 +65,6 @@ public class XMLResponseTest {
             get("http://localhost:9876/de/24848").
         then().
             assertThat().
-            body("response.places.place.findAll{it.stateAbbreviation=='SH'}", hasSize(4));
+            body("response.places.place.findAll{it.stateAbbreviation=='CA'}", hasSize(2));
     }
 }
