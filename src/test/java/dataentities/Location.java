@@ -14,7 +14,7 @@ public class Location {
     private List<Place> places;
 
     public Location() {
-        this.postCode = "1050";
+        this.postCode = "108850";
         this.country = "USA";
         this.countryAbbreviation = "LV";
 
