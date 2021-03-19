@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <response>
 	<postcode>24848</postcode>
-	<country>Germany</country>
-	<countryAbbreviation>DE</countryAbbreviation>
+	<country>United States</country>
+	<countryAbbreviation>US</countryAbbreviation>
 	<places>
 		<place longitude="9.4333" latitude="54.3833">
-			<placeName>Alt Bennebek</placeName>
-			<state>Schleswig-Holstein</state>
-			<stateAbbreviation>SH</stateAbbreviation>
+			<placeName>Annapolis</placeName>
+			<state>Maryland</state>
+			<stateAbbreviation>MD</stateAbbreviation>
 		</place>
 		<place longitude="9.4833" latitude="54.45">
-			<placeName>Klein Rheide</placeName>
-			<state>Schleswig-Holstein</state>
-			<stateAbbreviation>SH</stateAbbreviation>
+			<placeName>Raleigh</placeName>
+			<state>North Carolina</state>
+			<stateAbbreviation>NC</stateAbbreviation>
 		</place>
 		<place longitude="9.5087" latitude="54.4111">
-			<placeName>Kropp</placeName>
-			<state>Schleswig-Holstein</state>
-			<stateAbbreviation>SH</stateAbbreviation>
+			<placeName>Studio City</placeName>
+			<state>California</state>
+			<stateAbbreviation>CA</stateAbbreviation>
 		</place>
 		<place longitude="9.45" latitude="54.4">
-			<placeName>Klein Bennebek</placeName>
-			<state>Schleswig-Holstein</state>
-			<stateAbbreviation>SH</stateAbbreviation>
+			<placeName>San Diego</placeName>
+			<state>California</state>
+			<stateAbbreviation>CA</stateAbbreviation>
 		</place>
 	</places>
 </response>
