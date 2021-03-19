@@ -14,7 +14,7 @@ public class DataParameterizationTest {
     public static Object[][] zipCodesAndPlaces() {
         return new Object[][] {
             { "us", "90210", "Beverly Hills" },
-            { "us", "12345", "Schenectady" },
+            { "us", "21409", "Annapolis" },
             { "ca", "B2R", "Waverley"}
         };
     }
